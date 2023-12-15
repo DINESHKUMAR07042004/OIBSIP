@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.hero{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+
+}
+nav{
+    display: flex;
+    width:84% ;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin: 10px 20px; 
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: blue;
+}
+.details1{
+    margin-left: 8%;
+    margin-top: 13%;
+    text-align: right;
+}
+.details1 h1{
+    font-size: 50px;
+    color:darkred;
+    margin-bottom: 20px;
+    text-align: right;
+}
+span{
+    color:orange;
+}
+.details1 p{
+    color:black;
+    line-height: 22px;
+    text-align: right;
+    text-transform: uppercase;
+}
+.details1 a{
+    background: darkblue;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: whitesmoke;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    text-align: right;
+}
+ .image{
+    float: left;
+    width: 40%;
+
+}
+.last{
+    color:greenyellow;
+}
